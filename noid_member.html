@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <a onClick="window.location.reload()" style="cursor: pointer;" class="logo"><img src="images/noid_remove.png", width="100"><h1>NOID</h1></a>
+            <a href="#" onclick="location.href='practice.html'" class="logo"><img src="images/noid_remove.png", width="100"><h1>NOID</h1></a>
             <div class ="line">
             <div class="nav">
                 <a href="https://dankook.sen.hs.kr/" target = "_blank" >DKSH</a>
@@ -25,5 +25,87 @@
             </div>
             </div>
         </div>
+    </div>
+    <div class="hero">
+        <p class="hero_name"><strong>Members of NOID</strong><br><h2 class="hero_inf">2022년 NOID 개설 초기 멤버들과 함께.</h2></p>
+        <div class="as1"></div>
+    </div>
+    <div class="members">
+        <div class="tab_content" style="text-align: center;">
+            <input type="radio" name = "tabmenu" id="tab1" checked>
+            <label for="tab1">Presidents</label>
+            <input type="radio" name = "tabmenu" id="tab2">
+            <label for="tab2">Team Leaders</label>
+            <input type="radio" name = "tabmenu" id="tab3">
+            <label for="tab3">Others</label>
+
+            <div class="conbox1 con1">
+                <div class="presidents">
+                <div class="s1" style="margin-right: auto;">정필규</div>
+                <div class="s2" style="margin-left: auto;">김성진</div>
+                </div>
+            </div>
+            <div class="conbox2 con2">
+            <div class ="team_leaders" style="display: grid; grid-template-columns: 1fr 1fr 1fr; place-items: center; ">
+              
+                <div class="s3">김기현</div>
+                <div class="s4">김도현</div>
+                <div class="s5">김창우</div>
+                <div class="s6">노제원</div>
+                <div class="s7">박세움</div>
+                <div class="s8">정진우</div>
+              
+            </div>
+            </div>
+            <div class="conbox3 con3">
+            <div class="others" style="display: grid; grid-template-columns: 1fr 1fr 1fr; place-items: center;">
+                <div class="s9">노윤후</div>
+                <div class="s10">오병도</div>
+                <div class="s11">정유찬</div>
+                <div class="s12">고건</div>
+                <div class="s13">정진우</div>
+                <div class="s14">조수안</div>
+                <div class="s15">서보강</div>
+                <div class="s16">이서우</div>
+                <div class="s17">김현서</div>
+                <div class="s18">박세민</div>
+                <div class="s19">백윤규</div>
+                <div class="s20">이재환</div>
+                <div class="s21">우상범</div>
+                <div class="s22">최성열</div>
+                <div class="s23">이시우</div>
+                <div class="s24">이시우</div>
+                <div class="s25">이정민</div>
+                <div class="s26">고동혁</div>
+                <div class="s27">조세환</div>
+            </div>
+            </div>
+            
+            <style>
+                input[type="radio"] {display: none;}
+                input[type="radio"] + label {display: inline-block; border: 1px solid; padding: 20px; background: #DDD; color: #999; font-size: 20px; cursor: pointer;}
+                input[type="radio"]:checked + label{background: hsl(10, 65%, 52%); border: 1px solid hsl(10, 65%, 52%); color :#ffffff; font-weight: bold}
+                
+                .conbox1 {width: 1000px; height: 500px; background: #ffffff; margin: 0 auto; display: none;}
+                .conbox2 {width: 1000px; height: 800px; background: #ffffff; margin: 0 auto; display: none;}
+                .conbox3 {width: 1000px; height: 2200px; background: #ffffff; margin: 0 auto; display: none;}
+                input[id="tab1"]:checked ~ .con1 {display: block;}
+                input[id="tab2"]:checked ~ .con2 {display: block;}
+                input[id="tab3"]:checked ~ .con3 {display: block;}
+            </style>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="images/footer_noid-removebg-preview.png" width="150px" height="90px" style="vertical-align: middle; position:absolute;">
+        </div>
+        <div class="sns">
+            <a href="https://www.instagram.com/noid_d.ksh.pk/" target="_blank" class="insta"><img src="images/insta.png" width="40px" height="40px"></a>
+            <a href="https://www.youtube.com/@noid1281" target="_blank" class="youtube"><img src="images/yuotube.png" width="35px" height="35px"></a>
+        </div>
+        <h4 class="sns_text"><span class="sns_r">N</span>o <span class="sns_r">O</span>bstacle <span class="sns_r">I</span>n our <span class="sns_r">D</span>estination</h4>
+    </footer>
 </body>
 </html>

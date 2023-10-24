@@ -12,7 +12,7 @@
 body{
     width:100%;
     overflow-x:hidden;
-    padding-bottom:10rem;
+
 }
 
 html{
@@ -98,3 +98,287 @@ a{
     width: 85px;
     background-color: rgb(130, 130, 130);
 }
+
+h1{
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: abster;
+    padding-right: 120px;
+}
+.hero{
+    display: block;
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(images/noid_class.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    width: 100vw;
+    height: 48rem;
+}
+.hero_name{
+    position: relative;
+    top: 35%;
+    font-size: 90px;
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+.hero_inf{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+}
+.members{
+    padding-top: 300px;
+}
+
+.presidents{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+}
+ 
+
+.s1{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s2{
+    margin-top: 50px;
+    margin-right: 200px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s3{
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s4{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s5{
+    margin-top: 50px;
+
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s6{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s7{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s8{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s9{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s10{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s11{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s12{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s13{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s14{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s15{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s16{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s17{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s18{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s19{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s20{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s21{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s22{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s23{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s24{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+.s25{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s26{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+.s27{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10%;
+}
+
+footer{
+    background-color: #ececec;
+    height: 160px;
+    top: 0;
+    bottom: 0;
+    position: relative;
+}
+.footer-logo{
+    opacity: 0.4;
+    position: absolute;
+    left: 18%;
+    top: 25%;
+}
+.sns{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    right:250px;
+    top: 20%;
+    opacity: 0.4;
+    position: absolute; 
+}
+.youtube{
+    padding-top: 10px;
+    padding-left: 50px;
+    position: absolute;
+}
+
+.sns_text{
+    float: right;
+    padding-top: 85px;
+    padding-right: 265px;
+    color: #6e6e6e;
+}
+.sns_r{
+    color: rgb(232, 105, 98);
+}
+
+

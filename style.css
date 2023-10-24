@@ -15,6 +15,10 @@ html{
     font-family: "SUIT-Regular",sans-serif;
     z-index:0;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+  }
   
 .header {
     position: fixed;
@@ -102,7 +106,6 @@ a{
     margin: 0 auto;
     width: 100vw;
     height: 50rem;
-
 }
 p{
     position: relative;
@@ -144,8 +147,7 @@ h3{
 
 body{
     width:100%;
-    overflow-x:hidden;
-    padding-bottom:10rem;
+    overflow-x:hidden; 
 }
 
 .wide{
@@ -255,5 +257,43 @@ ul {
 }
 .sl1{
     font-size: 20px;
-
 }
+
+footer{
+    background-color: #ececec;
+    height: 160px;
+    bottom: 0;
+    position: relative;
+}
+.footer-logo{
+    opacity: 0.4;
+    position: absolute;
+    left: 18%;
+    top: 25%;
+}
+.sns{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    right:250px;
+    top: 20%;
+    opacity: 0.4;
+    position: absolute; 
+}
+.youtube{
+    padding-top: 10px;
+    padding-left: 50px;
+    position: absolute;
+}
+
+.sns_text{
+    float: right;
+    padding-top: 85px;
+    padding-right: 265px;
+    color: #6e6e6e;
+}
+.sns_r{
+    color: rgb(232, 105, 98);
+}
+
+
